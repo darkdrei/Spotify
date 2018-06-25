@@ -18,7 +18,7 @@ function saveUser(request, response){
     user.name = params.name;
     user.username = params.username;
     user.email = params.email;
-    user.role = 'ROL_USER';
+    user.role = 'ROL_ADMIN';
     user.image = 'null';
     if(params.password){
         //Encriptar contraseña guardar dato
